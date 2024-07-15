@@ -1,0 +1,30 @@
+import = ["/home/dejvi/.config/alacritty/themes/themes/nightfox.toml"]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+transparent_background_colors = true
+
+[cursor]
+blink_interval = 500
+blink_timeout = 30
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[font.normal]
+family = "MesloLGS NF"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+opacity = 0.9
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+y = 15
